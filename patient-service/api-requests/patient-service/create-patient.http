@@ -1,0 +1,22 @@
+### POST request to create new patient entity
+POST http://localhost:4000/patients
+Content-type: application/json
+
+{
+  "name": "Marie Curie",
+  "email": "marie@outlook.com",
+  "address": "1234 Dummy Avenue",
+  "dateOfBirth": "1995-09-09",
+  "registeredDate": "2025-05-16"
+}
+
+### POST request without email
+POST http://localhost:4000/patients
+Content-type: application/json
+
+{
+  "name": "John Doe",
+  "address": "5678 Nothing Avenue",
+  "dateOfBirth": "1999-09-09",
+  "registeredDate": "2025-05-16"
+}
