@@ -1,0 +1,21 @@
+### POST request to update an existing patient entity
+PUT http://localhost:4000/patients/123e4567-e89b-12d3-a456-426614174000
+Content-type: application/json
+
+{
+  "name": "John Doe",
+  "email": "updatedemail@example.com",
+  "address": "1234 Updated Avenue",
+  "dateOfBirth": "1995-09-09"
+}
+
+### POST request to update an existing patient entity
+PUT http://localhost:4000/patients/123e4567-e89b-12d3-a456-426614174000
+Content-type: application/json
+
+{
+  "name": "John Doe",
+  "email": "john.doe@example.com",
+  "address": "123 Only Update Address",
+  "dateOfBirth": "1995-09-09"
+}
