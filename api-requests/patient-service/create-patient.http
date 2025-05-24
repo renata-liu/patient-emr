@@ -3,8 +3,8 @@ POST http://localhost:4000/patients
 Content-type: application/json
 
 {
-  "name": "Marie Curie",
-  "email": "marie@outlook.com",
+  "name": "Marie Curie Billing",
+  "email": "marie_billing_account@outlook.com",
   "address": "1234 Dummy Avenue",
   "dateOfBirth": "1995-09-09",
   "registeredDate": "2025-05-16"
