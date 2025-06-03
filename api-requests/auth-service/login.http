@@ -1,0 +1,26 @@
+### Valid login request to retrieve a token
+POST http://localhost:4005/login
+Content-Type: application/json
+
+{
+    "email": "testuser@test.com",
+    "password": "password123"
+}
+
+### Invalid login request (nonexistent user)
+POST http://localhost:4005/login
+Content-Type: application/json
+
+{
+  "email": "invalidemail@test.com",
+  "password": "fakepassword1"
+}
+
+### Invalid login request (wrong password)
+POST http://localhost:4005/login
+Content-Type: application/json
+
+{
+  "email": "testuser@test.com",
+  "password": "wrongpassword123"
+}
