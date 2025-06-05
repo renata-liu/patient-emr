@@ -1,3 +1,7 @@
 ### GET request to get all patients via gateway
 GET http://localhost:4004/api/patients
 Authorization: Bearer {{token}}
+
+### GET request to get all patients via gateway with invalid token
+GET http://localhost:4004/api/patients
+Authorization: Bearer fwiefkwehjrbgrhweg
